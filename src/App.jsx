@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import VideoInput from "./components/VideoInput";
-import VideoPlayer from "./components/VideoPlayer";
-import CaptionEditor from "./components/CaptionEditor";
-import CaptionList from "./components/CaptionList";
+import VideoInput from "./Components/VideoInput";
+import VideoPlayer from "./Components/VideoPlayer";
+import CaptionEditor from "./Components/CaptionEditor";
+import CaptionList from "./Components/CaptionList";
 
 function App() {
   const [videoUrl, setVideoUrl] = useState("");
